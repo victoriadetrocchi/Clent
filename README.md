@@ -108,9 +108,9 @@ Architecture prioritizes modular components, reactive UI updates, and seamless s
 
 ### 1️⃣ Clone repository
 
-git clone https://github.com/tu-usuario/vdt-crm.git
+git clone https://github.com/victoriadetrocchi/clent.git
 2️⃣ Install dependencies
-cd vdt-crm
+cd crm
 npm install
 3️⃣ Run development server
 npm run dev
