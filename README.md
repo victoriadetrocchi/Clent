@@ -17,7 +17,7 @@ Built entirely with React, focused on UI excellence, performance, and scalable f
 ## 🚀 Live Demo
 
 🌐 **Live Version**  
-https://clent.netlify.app  
+https://clentcrm.netlify.app/
 
 ---
 
