@@ -40,13 +40,13 @@ function App() {
             </button>
             <button 
               onClick={() => setVistaActual('clientes')} 
-              className={`w-full flex items-center gap-3 px-4 py-2.5 rounded-xl transition-all duration-200 text-sm font-medium ${
+              className={`w-full flex items-center gap-3 px-4 py-3 rounded-xl transition-all duration-200 font-medium ${
                 vistaActual === 'clientes' || vistaActual === 'perfil' 
-                ? 'bg-[#8B5CF6] text-white shadow-md shadow-violet-900/20' 
-                : 'text-slate-400 hover:bg-[#18181C] hover:text-slate-200'
+                ? 'bg-violet-600 text-white shadow-lg shadow-violet-500/25' 
+                : 'text-slate-400 hover:bg-white/5 hover:text-white'
               }`}
             >
-              <Users className="w-4 h-4" /> Clientes
+              <Users className="w-5 h-5" /> Clientes
             </button>
             <button onClick={() => setVistaActual('facturas')} className={`w-full flex items-center gap-3 px-4 py-3 rounded-xl transition-all duration-200 font-medium ${vistaActual === 'facturas' ? 'bg-violet-600 text-white shadow-lg shadow-violet-500/25' : 'text-slate-400 hover:bg-white/5 hover:text-white'}`}>
               <Receipt className="w-5 h-5" /> Facturación
